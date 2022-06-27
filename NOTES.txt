@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap');
+
+font-family: 'Dosis', sans-serif;
+
+
+COLOR PALETTE:
+#9086a6; // background
+#827899; // 
+#7c7287; // 
+#e0c1d2; 
+#d1ced9; // 
+#eff0ed; 
+#0072b1; // linkedin 
+#627c85;
+
+DARK COLOR PALETTE:
+#75595d; // logo color
+#49475b; // 
+#253d5b; // 
+#171515;  // github 
+#0b132b; // 
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+Portfolio WebPage:
+https://christinejackson464.github.io/
+
+GitHub WebPage:
+https://github.com/ChristineJackson464
+
+LinkedIn WebPage:
+https://www.linkedin.com/in/christine-jackson-92659450/
+
+Instagram WebPage:
+https://www.instagram.com/mom2mb/

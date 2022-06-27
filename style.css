@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9086a6;
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #eff0ed;
+  height: 630px;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, 
+              rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+              rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+              rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+              rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* FORM */
+form {
+  width: 90%;
+}
+
+.form-group {
+  height: 65px;
+}
+
+label {
+  position: relative;
+  bottom: 3px;
+}
+
+input {
+  box-sizing: border-box;
+  height: 34px;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #0b132b;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+button {
+  font-family: 'Dosis', sans-serif;
+  background: #49475b;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+  color: #eff0ed; 
+  height: 50px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+button:hover {
+  background: #33323d;
+  filter: brightness(200%);
+}
+
+button:focus {
+  outline: none;
+}
+
+.message-container {
+  border: 1px solid #0b132b;
+  border-radius: 5px;
+  width: 90%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color:#0b132b;
+}
